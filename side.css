@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    background-color: #262626;
+    width: 300px;
+    height: 100vh;
+    color: #fff;
+
+}
+
+.content {
+    width: 100%;
+}
+
+.bar {
+    width: 220px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #808080;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.img {
+    height: 30px;
+    width: 50px;
+}
+
+.menu {
+    background-color: white;
+    width: 220px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.menu:hover {
+    background-color: #b3d1ff;
+}
+
+.font {
+    color: black;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.dash {
+    font-size: 25px;
+    margin-left: 10px
+}
+.bottomnavbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #262626;
+    color: #fff;
+    display: none;
+    
+}
+.bottomimg{
+    height: 30px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 5px;
+    padding:8px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.bottomimg:hover{
+    background-color: #b3d1ff;
+}
+
+@media screen and (max-width:550px) {
+    .sidebar{
+        display: none;
+    }
+    .bottomnavbar{
+        display: block;
+    }
+
+}
